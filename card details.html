@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paytm-like App</title>
+  <title>Paytm</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -13,12 +13,11 @@
     }
 
     header {
-      background-color: #3498db;
-      padding: 10px;
-      text-align: center;
-      color: #fff;
-    }
-
+    background-color: #3498db;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
     main {
       max-width: 600px;
       margin: 20px auto;
@@ -52,11 +51,22 @@
     button:hover {
       background-color: #3498db;
     }
+
+    footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
   </style>
 </head>
 <body>
   <header>
-    <h1>Paytm-like App</h1>
+    <h1>Paytm</h1>
   </header>
 
   <main>
@@ -73,8 +83,13 @@
       <label for="cvv">CVV</label>
       <input type="text" id="cvv" name="cvv" required>
 
-      <button type="submit">Make Payment</button>
+      <button type="submit"> <a href="payment end.html" class="payment-option">Make Payment</a></button>
+      <!-- <button type="submit">Make Payment</button> -->
     </form>
   </main>
+
+  <footer>
+    <p>&copy; 2023 Paytm. All rights reserved.</p>
+</footer>
 </body>
 </html>

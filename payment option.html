@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Payment App</title>
+    <title>Paytm</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,18 +13,18 @@
         }
 
         header {
-            background-color: #2196F3;
-            padding: 10px;
-            color: white;
-            text-align: center;
-        }
+    background-color: #3498db;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
 
         main {
             padding: 20px;
         }
 
         h1 {
-            color: #333;
+            color: #fff;
         }
 
         .payment-options {
@@ -44,20 +44,34 @@
         .payment-option:hover {
             background-color: #f0f0f0;
         }
+
+        footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
     </style>
 </head>
 <body>
     <header>
-        <h1>Your Payment App</h1>
+        <h1>Paytm</h1>
     </header>
     <main>
-        <h1>Welcome to Your Payment App</h1>
+        <h1>Welcome to Paytm</h1>
         <p>Choose a payment option:</p>
         <div class="payment-options">
-            <div class="payment-option">Credit Card</div>
-            <div class="payment-option">Debit Card</div>
-            <div class="payment-option">PayPal</div>
+            <div ><a href="payment.html" class="payment-option"> Credit Card </a></div>
+            <div ><a href="payment.html" class="payment-option">Debit Card</a></div>
+            <div><a href="payment.html" class="payment-option">Other Card</a></div>
         </div>
     </main>
+    <footer>
+        <p>&copy; 2023 Paytm. All rights reserved.</p>
+    </footer>
 </body>
 </html>
