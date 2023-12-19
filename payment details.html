@@ -18,7 +18,7 @@ header, main, footer {
 
 header {
     background-color: #3498db;
-    color: #fff;
+    color: #160b0b;
     padding: 1em;
     text-align: center;
 }
@@ -87,10 +87,7 @@ footer {
             </form>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2023 Paytm</p>
-    </footer>
-    <script src="script.js"></script>
+    
     <script>
         document.addEventListener('DOMContentLoaded', function () {
     const paymentForm = document.getElementById('paymentForm');
@@ -103,7 +100,7 @@ footer {
         if (isNaN(amount) || amount <= 0) {
             alert('Please enter a valid amount.');
         } else {
-            // In a real application, you would send the payment information to a server for processing.
+            
             alert(`Payment successful! Amount: $${amount.toFixed(2)}`);
         }
     });
